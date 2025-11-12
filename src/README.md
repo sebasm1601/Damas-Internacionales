@@ -63,12 +63,7 @@ Se agregaron campos a la estructura `Jugador` para almacenar estadísticas que s
 
 ## Compilación
 
-### Usando Make (Linux/Mac)
-```bash
-make
-```
-
-### Compilación Manual (Linux/Mac)
+### Linux/Mac
 ```bash
 g++ -o damas main.cpp pieza.cpp tablero.cpp movimiento.cpp cronometro.cpp jugador.cpp exportador_csv.cpp guardador_juego.cpp juego.cpp juego_logica.cpp juego_menu.cpp juego_main.cpp -std=c++11
 ```
@@ -78,10 +73,7 @@ g++ -o damas main.cpp pieza.cpp tablero.cpp movimiento.cpp cronometro.cpp jugado
 g++ -o damas.exe main.cpp pieza.cpp tablero.cpp movimiento.cpp cronometro.cpp jugador.cpp exportador_csv.cpp guardador_juego.cpp juego.cpp juego_logica.cpp juego_menu.cpp juego_main.cpp -std=c++11
 ```
 
-O simplemente ejecutar el script:
-```bash
-compilar_windows.bat
-```
+
 
 
 
